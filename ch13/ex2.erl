@@ -1,8 +1,7 @@
 -module(ex2).
 -export([
-    test/0,
-    max/1
-  ]).
+  test/0,
+  max/1]).
 
 % Measure the process spawning time on your machine, using the program
 % in Section 12.3, Processes Are Cheap, on page 185. Plot a graph of the
