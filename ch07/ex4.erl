@@ -15,4 +15,4 @@ test() ->
   {quux, 42} = ex3:packet_to_term(ex2:term_to_packet({quux, 42})),
   [foo, bar] = ex3:packet_to_term(ex2:term_to_packet([foo, bar])),
 
-  tests_worked.
+  done.

@@ -6,7 +6,7 @@
 test() ->
   <<2#1000:4>> = reverse(<<2#0001:4>>),
 
-  tests_worked.
+  done.
 
 reverse(Bin) ->
   list_to_binary(lists:reverse([X || <<X:1>> <= Bin])).

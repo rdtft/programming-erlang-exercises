@@ -10,7 +10,7 @@
 test() ->
   foo = packet_to_term(<<1,1,1,1, 131,100,0,3,102,111,111>>),
 
-  tests_worked.
+  done.
 
 packet_to_term(<<_Header:4/binary, Packet/binary>>) when is_binary(Packet) ->
   binary_to_term(Packet).

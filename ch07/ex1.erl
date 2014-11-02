@@ -8,7 +8,7 @@ test() ->
   <<1,1,2,2>> = reverse(<<2,2,1,1>>),
   <<0,0,0,0,1,1,1,1>> = reverse(<<1,1,1,1,0,0,0,0>>),
 
-  tests_worked.
+  done.
 
 reverse(X) when is_binary(X) ->
   list_to_binary(lists:reverse(binary_to_list(X))).

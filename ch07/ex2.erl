@@ -12,7 +12,7 @@
 test() ->
   <<N,N,N,N, 131,100,0,3,102,111,111>> = term_to_packet(foo),
 
-  tests_worked.
+  done.
 
 term_to_packet(Term) ->
   Bin = term_to_binary(Term),
