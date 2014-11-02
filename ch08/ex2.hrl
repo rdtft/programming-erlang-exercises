@@ -1,0 +1,1 @@
+-record(module, {name, functions_names, functions_count}).
